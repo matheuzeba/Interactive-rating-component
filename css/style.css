@@ -26,8 +26,9 @@ body {
     width: fit-content;
     max-width: 45rem;
     
-    padding: 2rem;
-    gap: 2rem;
+    padding: 2.5rem 2rem;
+    border-radius: 3rem;
+    gap: 3rem;
     background: var(--Dark-Blue);
 }
 
@@ -77,6 +78,7 @@ body {
     width: 5rem;
 }
 
+/* .SUBMIT */
 .component .submit {
     display: flex;
     justify-content: center;
@@ -85,10 +87,17 @@ body {
 
 .component .submit button{
     width: 100%;
-    padding: 1rem;
+    padding: 1.5rem;
     border-radius: 3rem;
     text-transform: uppercase;
     letter-spacing: 0.5rem;
     background: var(--Orange);
     color: var(--White);
+    transition: 0.3s ease-in-out;
+}
+
+.submit button:hover {
+    cursor: pointer;
+    background: var(--White);
+    color: var(--Orange);
 }
