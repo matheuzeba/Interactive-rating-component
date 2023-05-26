@@ -85,4 +85,10 @@ body {
 
 .component .submit button{
     width: 100%;
+    padding: 1rem;
+    border-radius: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    background: var(--Orange);
+    color: var(--White);
 }
