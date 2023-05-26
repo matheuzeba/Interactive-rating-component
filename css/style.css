@@ -1,4 +1,8 @@
 /* page */
+body {
+    background: var(--Very-Dark-Blue);
+}
+
 .page {
     /* centralizando pagina inteira */
     display: flex;
