@@ -110,3 +110,10 @@ body {
     background: var(--White);
     color: var(--Orange);
 }
+
+/* script */
+
+.active {
+    background: var(--Orange);
+    color: var(--White);
+}
