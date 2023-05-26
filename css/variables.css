@@ -13,9 +13,9 @@
     /* FONTES */
 
     /* headings */
-
+    --fts-h1: clamp(2rem, 1.2958rem + 3.0047vw, 4rem);
     /* paragrafos */
-    --p-tag: font-size: clamp(15rem, 13.9437rem + 4.5070vw, 18rem);
+    --fts-p: clamp(1.5rem, 1.3239rem + 0.7512vw, 2rem);
     /* listas */
 
     /* buttons */

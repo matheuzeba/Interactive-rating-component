@@ -1,21 +1,29 @@
+/* page */
 .page {
+    /* centralizando pagina inteira */
     display: flex;
     justify-content: center;
     align-items: center;
+
+    /* limitando width */
     margin: auto;
     width: 30rem;
-    
+
+    /* pegando 100% da pagina do body */
     height: inherit;
 
 }
 
+/* COMPONENT */
 .component {
+    /* adicionando espaçamento entre elementos do component */
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
 .component .header {
+    /* adicionando background a estrela */
     width: fit-content;
     padding: 1.5rem;
     border-radius: 100%;
@@ -23,5 +31,10 @@
 }
 
 .component .header img {
+    /* limitando width do img de .header */
     width: 2rem;
+}
+
+.component .text h1 {
+    font-size: var(--fts-h1);
 }
