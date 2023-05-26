@@ -46,6 +46,13 @@ body {
 }
 
 /* .TEXT */
+
+.component .text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 .component .text h1 {
     font-size: var(--fts-h1);
     color: var(--White);
@@ -62,16 +69,10 @@ body {
     justify-content: space-between;
 }
 
-.component .rate ul li{
-    background: var(--Light-Grey);
-    padding: 1.5rem;
-    border-radius: 100%;
-    width: fit-content;
-    font-size: var(--fts-li);
-}
-
 .component .rate ul li button{
     color: var(--Medium-Grey);
-    background: none;
-    width: 2rem;
+    background: var(--Light-Grey);
+    border-radius: 100%;
+    padding: 1.5rem;
+    width: 5rem;
 }
