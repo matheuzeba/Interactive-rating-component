@@ -28,7 +28,7 @@ body {
     
     padding: 2rem;
     gap: 2rem;
-    background: var(--Medium-Grey);
+    background: var(--Dark-Blue);
 }
 
 .component .header {
@@ -36,7 +36,7 @@ body {
     width: fit-content;
     padding: 1.5rem;
     border-radius: 100%;
-    background: var(--Dark-Blue);
+    background: var(--Light-Grey);
 }
 
 .component .header img {
