@@ -76,6 +76,14 @@ body {
     border-radius: 100%;
     padding: 1.5rem;
     width: 5rem;
+    transition: 0.3s ease-in-out;
+}
+
+.component .rate ul li button:hover,
+.component .rate ul li button:focus {
+    background: hsl(217, 12%, 63%);
+    color: var(--White);
+    cursor: pointer;
 }
 
 /* .SUBMIT */
@@ -96,7 +104,8 @@ body {
     transition: 0.3s ease-in-out;
 }
 
-.submit button:hover {
+.submit button:hover,
+.submit button:focus {
     cursor: pointer;
     background: var(--White);
     color: var(--Orange);
