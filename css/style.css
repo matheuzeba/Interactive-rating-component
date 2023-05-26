@@ -38,3 +38,7 @@
 .component .text h1 {
     font-size: var(--fts-h1);
 }
+
+.component .text p {
+    font-size: var(--fts-p);
+}
