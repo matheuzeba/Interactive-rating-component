@@ -22,9 +22,13 @@ body {
     /* adicionando espaçamento entre elementos do component */
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    
+    width: fit-content;
+    max-width: 45rem;
+    
     padding: 2rem;
-    background: var(--Dark-Blue);
+    gap: 2rem;
+    background: var(--Medium-Grey);
 }
 
 .component .header {
