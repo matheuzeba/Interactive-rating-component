@@ -9,6 +9,12 @@
 
 }
 
+.component {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 .component .header {
     width: fit-content;
     padding: 1.5rem;
