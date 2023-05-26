@@ -1,3 +1,16 @@
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+.component .header {
+    width: fit-content;
+    padding: 1.5rem;
+    border-radius: 100%;
+}
+
 .component .header img {
-    max-width: 25%;
+    width: 2rem;
 }
