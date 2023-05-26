@@ -45,12 +45,13 @@ body {
 }
 
 .component .text h1 {
-    color: var(--White);
     font-size: var(--fts-h1);
+    color: var(--White);
 }
 
 .component .text p {
     font-size: var(--fts-p);
+    color: var(--Medium-Grey);
 }
 
 .component .rate ul {
