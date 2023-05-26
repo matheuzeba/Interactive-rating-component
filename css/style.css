@@ -2,13 +2,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
+    width: 30rem;
+    
     height: inherit;
+
 }
 
 .component .header {
     width: fit-content;
     padding: 1.5rem;
     border-radius: 100%;
+    background: var(--Dark-Blue);
 }
 
 .component .header img {
