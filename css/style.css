@@ -76,3 +76,13 @@ body {
     padding: 1.5rem;
     width: 5rem;
 }
+
+.component .submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.component .submit button{
+    width: 100%;
+}
