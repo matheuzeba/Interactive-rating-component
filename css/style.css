@@ -111,6 +111,21 @@ body {
     color: var(--Orange);
 }
 
+/* SUBMITED */
+
+.submited {
+    text-align: center;
+}
+
+.submit section:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
 /* script */
 
 .active {
