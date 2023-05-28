@@ -124,6 +124,10 @@ body {
     gap: 2rem;
 }
 
+.submited section img {
+    width: 15rem;
+}
+
 .submited section:first-child p {
     background: var(--Light-Grey);
     color: var(--Orange);
@@ -133,14 +137,15 @@ body {
     width: 25rem;
 }
 
-.submited section img {
-    width: 15rem;
-}
-
 .thankYou {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+
+.thankYou h1 {
+    font-size: var(--fts-h1);
+    color: var(--White);
 }
 
 
