@@ -115,6 +115,7 @@ body {
 
 .submited {
     text-align: center;
+    display: flex;
 }
 
 .submited section:first-child {
@@ -183,5 +184,5 @@ body {
 }
 
 .show {
-    display: block;
+    display: flex;
 }

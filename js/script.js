@@ -11,6 +11,8 @@ const component = document.querySelector('.component');
 //thank you com rate 
 const valor = document.querySelector('.component .value');
 
+// component apos apertar no submit
+const submited = document.querySelector('.submited')
 
 // FUNÇÃO PARA ADICIONAR COR EM CLICK DE BUTTON
 
@@ -45,6 +47,7 @@ ratings.forEach(function (index1) {
         // CRIAR MECANISMO DE SUBMIT
         submit.addEventListener('click', function(){
             component.classList.add('hide')
+            submited.classList.add('show')
             valor.innerHTML = `You selected ${current + 1} out of ${ratings.length}`
         })
 
