@@ -76,15 +76,16 @@ body {
     border-radius: 100%;
     padding: 1.5rem;
     width: 5rem;
-    transition: 0.3s ease-in-out;
+    transition:  0.3s ease-in-out;
 }
 
-.component .rate ul li button:hover,
-.component .rate ul li button:focus {
+.component .rate ul li button:hover {
     background: hsl(217, 12%, 63%);
     color: var(--White);
     cursor: pointer;
 }
+
+
 
 /* .SUBMIT */
 .component .submit {
@@ -104,8 +105,7 @@ body {
     transition: 0.3s ease-in-out;
 }
 
-.submit button:hover,
-.submit button:focus {
+.submit button:hover {
     cursor: pointer;
     background: var(--White);
     color: var(--Orange);
@@ -114,6 +114,6 @@ body {
 /* script */
 
 .active {
-    background: var(--Orange);
-    color: var(--White);
+    background: var(--Orange) !important;
+    color: var(--White) !important;
 }
