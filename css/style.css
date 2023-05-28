@@ -124,6 +124,15 @@ body {
     gap: 2rem;
 }
 
+.submited section:first-child p {
+    background: var(--Light-Grey);
+    color: var(--Orange);
+    padding: 0.5rem;
+    border-radius: 2rem;
+    box-shadow: 0px 2px 3px 0px #000000f0;
+    width: 25rem;
+}
+
 .submited section img {
     width: 15rem;
 }
