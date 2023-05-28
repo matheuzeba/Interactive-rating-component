@@ -148,7 +148,10 @@ body {
     color: var(--White);
 }
 
-
+.thankYou p {
+    font-size: var(--fts-p);
+    color: var(--Medium-Grey);
+}
 
 /* script */
 
