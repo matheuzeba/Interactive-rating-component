@@ -129,6 +129,7 @@ body {
 }
 
 .submited section:first-child p {
+    font-size: var(--fts-p);
     background: var(--Light-Grey);
     color: var(--Orange);
     padding: 0.5rem;
@@ -151,6 +152,23 @@ body {
 .thankYou p {
     font-size: var(--fts-p);
     color: var(--Medium-Grey);
+}
+
+.goBack button {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    background: var(--Orange);
+    color: var(--White);
+    transition: 0.3s ease-in-out;
+}
+
+.goBack button:hover {
+    cursor: pointer;
+    background: var(--White);
+    color: var(--Orange);
 }
 
 /* script */
