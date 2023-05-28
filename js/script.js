@@ -2,7 +2,18 @@
 // pegando .btn
 const ratings = document.querySelectorAll('.btn');
 
+// pegando botão de submit
+const submit = document.querySelector('.submit button');
+
+// pegando o component
+const component = document.querySelector('.component');
+
+//thank you com rate 
+const valor = document.querySelector('.component .value');
+
+
 // FUNÇÃO PARA ADICIONAR COR EM CLICK DE BUTTON
+
 // criei uma função forEach
 ratings.forEach(function (index1) {
     // esta função recebe um evento click
@@ -12,7 +23,7 @@ ratings.forEach(function (index1) {
         // assim ficará parecido como um array
         const current= parseInt(e.currentTarget.innerText - 1);
         // console.log(current)       
-
+        
         // criei um for loop para pegar o segundo index
         for(let i = 0; i < ratings.length; i++) {
             // o index2 é o 'i' do loop no array de ratings
@@ -29,6 +40,15 @@ ratings.forEach(function (index1) {
                 ratings[i].classList.remove('active')
             }
         }
+        const value = e.currentTarget.innerText;
+
+        // CRIAR MECANISMO DE SUBMIT
+        submit.addEventListener('click', function(){
+            component.classList.add('hide')
+            valor.innerHTML = `You selected ${current + 1} out of ${ratings.length}`
+        })
+
+
     })
 })
 
