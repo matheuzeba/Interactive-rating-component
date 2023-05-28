@@ -117,10 +117,15 @@ body {
     text-align: center;
 }
 
-.submit section:first-child {
+.submited section:first-child {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 2rem;
+}
+
+.submited section img {
+    width: 15rem;
 }
 
 
