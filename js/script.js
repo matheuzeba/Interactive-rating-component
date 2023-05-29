@@ -58,6 +58,7 @@ ratings.forEach(function (index1) {
             valor.innerHTML = `You selected ${current + 1} out of ${ratings.length}`
         })
 
+        // mecanismo goback
         goBack.addEventListener('click', function(){
             if(component.style.display === 'none') {
                 submited.style.display = 'none'
