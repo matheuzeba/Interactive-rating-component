@@ -14,6 +14,9 @@ const valor = document.querySelector('.component .value');
 // component apos apertar no submit
 const submited = document.querySelector('.submited')
 
+// button goback
+const goBack = document.querySelector('.goBack button')
+
 // FUNÇÃO PARA ADICIONAR COR EM CLICK DE BUTTON
 
 // criei uma função forEach
@@ -46,12 +49,23 @@ ratings.forEach(function (index1) {
 
         // CRIAR MECANISMO DE SUBMIT
         submit.addEventListener('click', function(){
-            component.classList.add('hide')
-            submited.classList.add('show')
+            if(submited.style.display === 'none') {
+                component.style.display = 'none'
+                submited.style.display = 'flex'
+            } else {
+                component.style.display = 'none'
+            }
             valor.innerHTML = `You selected ${current + 1} out of ${ratings.length}`
         })
 
-
+        goBack.addEventListener('click', function(){
+            if(component.style.display === 'none') {
+                submited.style.display = 'none'
+                component.style.display = 'flex'
+            } else {
+                component.style.display = 'flex'
+            }
+        })
     })
 })
 
